@@ -1,0 +1,11 @@
+hy = int(input("Please enter the number of human years: "))
+while hy<0 :
+    hy = int(input("Error. Please enter a positive number: "))
+dy = 0;
+for i in range(0, hy):
+    if(i<2):
+        dy+=10.5
+    else :
+        dy+=4
+print(str(hy) + " human years is " + str(dy) + " dog years.")
+print("{} human years is {} dog years.".format(hy, dy))
