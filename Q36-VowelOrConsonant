@@ -1,0 +1,7 @@
+l = input("Please input a letter of the alphabet: ")
+if l=="a" or l=="e" or l=="i" or l=="o" or l=="u":
+    print("'{}' is a vowel.".format(l))
+elif l=="y":
+    print("'{}' is a vowel, and sometimes '{}' is a consonant.".format(l, l))
+else:
+    print("'{}' is a consonant.".format(l))
