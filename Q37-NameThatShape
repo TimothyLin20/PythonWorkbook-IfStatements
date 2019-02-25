@@ -1,0 +1,19 @@
+s = int(input("Please input the number of sides from 3 to 10: "))
+while s<3 or s>10:
+    s = int(input("Error: out of range. Please input the number of sides from 3 to 10: "))
+if s==3:
+    print("The shape is a triangle.")
+elif s==4:
+    print("The shape is a quadrilateral.")
+elif s==5:
+    print("The shape is a pentagon.")
+elif s==6:
+    print("The shape is a hexagon.")
+elif s==7:
+    print("The shape is a heptagon.")
+elif s==8:
+    print("The shape is a octagon.")
+elif s==9:
+    print("The shape is a nonagon.")
+elif s==10:
+    print("The shape is a decagon.")
