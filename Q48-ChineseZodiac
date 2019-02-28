@@ -1,25 +1,3 @@
 y = int(input("Please enter the number of years, greater than or equal to 0: "))
-if y%12==0:
-    print("The animal associated with year {} is Monkey.".format(y))
-elif y % 12 ==1:
-    print("The animal associated with year {} is Rooster.".format(y))
-elif y % 12 ==2:
-    print("The animal associated with year {} is Dog.".format(y))
-elif y % 12 ==3:
-    print("The animal associated with year {} is Pig.".format(y))
-elif y % 12 ==4:
-    print("The animal associated with year {} is Rat.".format(y))
-elif y % 12 ==5:
-    print("The animal associated with year {} is Ox.".format(y))
-elif y % 12 ==6:
-    print("The animal associated with year {} is Tiger.".format(y))
-elif y % 12 ==7:
-    print("The animal associated with year {} is Hare.".format(y))
-elif y % 12 == 8:
-    print("The animal associated with year {} is Dragon.".format(y))
-elif y % 12 == 9:
-    print("The animal associated with year {} is Snake.".format(y))
-elif y % 12 == 10:
-    print("The animal associated with year {} is Horse.".format(y))
-elif y % 12 == 11:
-    print("The animal associated with year {} is Sheep.".format(y))
+animals = ("Monkey", "Rooster", "Dog", "Pig", "Rat", "Ox", "Tiger", "Hare", "Dragon", "Snake", "Horse", "Sheep")
+print("The animal associated with year {} is {}.".format(y,animals[y%12]))
